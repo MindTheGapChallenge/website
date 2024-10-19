@@ -10,6 +10,7 @@ import Faq from "./faq";
 import Register from "./Register";
 import Home from './LandingPage';
 import Prizes from "./LandingPage/Prizes";
+import Team from "./Team";
 
 function Layout ({children}) {
   return <div className='md:px-8 px-4 mt-16'>{children}</div>
@@ -39,6 +40,10 @@ const router=createBrowserRouter([
   {
     path:"/prizes",
     element:<Layout><Prizes/></Layout>
+  },
+  {
+    path:"/team",
+    element:<Layout><Team/></Layout>
   }
 ])
 
