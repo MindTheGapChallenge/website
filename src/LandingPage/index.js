@@ -5,7 +5,7 @@ import happy from "./happy.png"
 import programming from "./programming.png";
 import myImage from "./output-onlinepngtools.png";
 import Prizes from "./Prizes";
-import ScrollAnimation from "./ScrollAnimation";
+import ScrollAnimation from "../ScrollAnimation";
 
 export default function Home () {
   return (

@@ -9,7 +9,7 @@ import Error404 from './404';
 import Faq from "./faq";
 import Register from "./Register";
 import Home from './LandingPage';
-import Prizes from "./Prizes";
+import Prizes from "./LandingPage/Prizes";
 
 function Layout ({children}) {
   return <div className='md:px-8 px-4 mt-16'>{children}</div>
