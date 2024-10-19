@@ -1,6 +1,5 @@
 import Rect from "./Rect";
 import world from "./world.png";
-import brain from "./brain.png";
 import people from "./people.png";
 import happy from "./happy.png"
 import programming from "./programming.png";

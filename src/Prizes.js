@@ -1,5 +1,3 @@
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
-
 export default function Prizes () {
     return (
         <div id="prizes" className="">
