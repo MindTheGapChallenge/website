@@ -10,7 +10,7 @@ import ScrollAnimation from "../ScrollAnimation";
 export default function Home () {
   return (
     <>
-        <div class="hero-section"  style={{ backgroundImage: `url(${myImage})` }}>
+        <div className="hero-section"  style={{ backgroundImage: `url(${myImage})` }}>
           <div className="animate-fade">
             <h1 className="md:text-7xl text-4xl text-color font-mono">MindTheGap Challenge</h1>
             <h2 className="md:text-5xl text-2xl text-color font-mono">Hacking Ignorance, Empowering Change</h2>
@@ -30,12 +30,12 @@ export default function Home () {
             <div className="md:w-[60%] w-[90%] mx-auto my-16">
               <h4 className="text-center text-color text-4xl font-bold mb-4 font-mono">Welcome to MindTheGap Hacks</h4>
               <ScrollAnimation>
-                <p className="text-center px-3 text-green-600 text-color leading-8 font-mono">Welcome to the MindTheGapHack, where young minds come together to bridge the gap between perception and reality! This event challenges high school students and middle schoolers (7th and 8th graders) to hack ignorance by using data, technology, and creative problem-solving. Participants will create innovative solutions to combat widespread misinformation.</p>
+                <p className="text-center px-3 text-color leading-8 font-mono">Welcome to the MindTheGapHack, where young minds come together to bridge the gap between perception and reality! This event challenges high school students and middle schoolers (7th and 8th graders) to hack ignorance by using data, technology, and creative problem-solving. Participants will create innovative solutions to combat widespread misinformation.</p>
                 <p className="text-center mt-8 text-blue-600 hover:text-blue-700 font-mono"><a href="/about">Learn More</a></p>
               </ScrollAnimation>
               <h4 className="text-center text-color text-4xl font-bold mb-4 font-mono">Our Vision</h4>
               <ScrollAnimation>
-                <p className="text-center px-3 text-green-600 text-color leading-8 font-mono">In the 21st century, humanity is in a better position than ever. In fact, since the beginning of the previous cenctury, the average global life expectancy has more than doubled<a className="text-xs text-blue-700 underline" href="https://www.statista.com/statistics/1302736/global-life-expectancy-by-region-country-historical/">*</a>. We have cured countless deseases. Luxouries that were equivilant to science fiction only a couple generations ago are now being taken granted. Poverty rates are at an all-time low and quality of life has never been this high. We have an abundance of pretty much every type of food at any time of the year. Even after all this, it feels like everybody is more pessimistic than ever. Everyday, somebody says the world will end. Climate change, AI takeover, when will it end?! This hackathon is your chance to address this problem by building an app.</p>
+                <p className="text-center px-3 text-color leading-8 font-mono">In the 21st century, humanity is in a better position than ever. In fact, since the beginning of the previous cenctury, the average global life expectancy has more than doubled<a className="text-xs text-blue-700 underline" href="https://www.statista.com/statistics/1302736/global-life-expectancy-by-region-country-historical/">*</a>. We have cured countless deseases. Luxouries that were equivilant to science fiction only a couple generations ago are now being taken granted. Poverty rates are at an all-time low and quality of life has never been this high. We have an abundance of pretty much every type of food at any time of the year. Even after all this, it feels like everybody is more pessimistic than ever. Everyday, somebody says the world will end. Climate change, AI takeover, when will it end?! This hackathon is your chance to address this problem by building an app.</p>
                 <p className="text-center mt-8 text-blue-600 hover:text-blue-700 font-mono"><a href="/about">Learn More</a></p>
               </ScrollAnimation>
             </div>
