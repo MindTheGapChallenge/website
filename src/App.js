@@ -19,40 +19,60 @@ function Layout ({children}) {
 const router=createBrowserRouter([
   {
     path:"/about",
-    element:<Layout><About/></Layout>
+    element: <>
+      <Navigation />
+      <Layout><About/></Layout>
+    </>
   },
   {
     path:"/",
-    element: <Home/>
+    element: <>
+      <Navigation />
+      <Home/>
+    </>
   },
   {
     path:"*",
-    element:<Layout><Error404/></Layout>
+    element: <>
+      <Navigation />
+      <Layout><Error404/></Layout>
+    </>
   },
   {
     path:"/faq",
-    element:<Layout><Faq/></Layout>
+    element: <>
+      <Navigation />
+      <Layout><Faq/></Layout>
+    </>
   },
   {
     path:"/register",
-    element:<Layout><Register/></Layout>
+    element: <>
+      <Navigation />
+      <Layout><Register/></Layout>
+    </>
   },
   {
     path:"/prizes",
-    element:<Layout><Prizes/></Layout>
+    element: <>
+      <Navigation />
+      <Layout><Prizes/></Layout>
+    </>
   },
   {
     path:"/team",
-    element:<Layout><Team/></Layout>
+    element: <>
+      <Navigation />
+      <Layout><Team/></Layout>
+    </>
   }
 ])
 
 function App() {
   return (
-    <div id="App dark">
-      <Navigation/>
-      <RouterProvider router={router}/>
-    </div>
+      <div id="App dark">
+        <RouterProvider router={router}/>
+      </div>
   );
 }
 
