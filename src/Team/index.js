@@ -1,6 +1,5 @@
 import "./PersonCard";
 import PersonCard from "./PersonCard";
-import img from "./sample.jpg";
 import aarush from "./Aarush_Tulsyan.png"
 import krishiv from "./KrishivPiduri.jpg";
 export default function Team () {
@@ -10,8 +9,6 @@ export default function Team () {
             <div className="py-8 px-4 mx-auto max-w-screen-xl text-center lg:py-16 lg:px-6 flex-col grid gap-4 grid-cols-3">
                 <PersonCard Name={"Krishiv Piduri"} Role={"Founder and CEO"} Image={krishiv}/>
                 <PersonCard Name={"Aarush Tulsyan"} Role={"Mentor"} Image={aarush}/>
-                <PersonCard Name={"Shiv Mahajan"} Role={"Co-CMO"} Image={img}/>
-                <PersonCard Name={"Arjun Averneni"} Role={"Co-CMO"} Image={img}/>
             </div>
         </section>
 );
