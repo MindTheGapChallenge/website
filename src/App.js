@@ -11,6 +11,7 @@ import Register from "./Register";
 import Home from './LandingPage';
 import Prizes from "./LandingPage/Prizes";
 import Team from "./Team";
+import ContactUs from "./ContactUs"
 
 function Layout ({children}) {
   return <div className='md:px-8 px-4 mt-16'>{children}</div>
@@ -64,6 +65,13 @@ const router=createBrowserRouter([
     element: <>
       <Navigation />
       <Layout><Team/></Layout>
+    </>
+  },
+  {
+    path:"/contact-us",
+    element: <>
+      <Navigation />
+      <Layout><ContactUs/></Layout>
     </>
   }
 ])
