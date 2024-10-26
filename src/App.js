@@ -12,6 +12,7 @@ import Home from './LandingPage';
 import Prizes from "./LandingPage/Prizes";
 import Team from "./Team";
 import ContactUs from "./ContactUs"
+import Sponsors from "./LandingPage/Sponsors";
 
 function Layout ({children}) {
   return <div className='md:px-8 px-4 mt-16'>{children}</div>
@@ -38,6 +39,12 @@ const router=createBrowserRouter([
       <Navigation />
       <Layout><Error404/></Layout>
     </>
+  },
+  {
+    path:"/sponsors",
+    element: <>
+      <Navigation />
+      <Layout><Sponsors/></Layout></>
   },
   {
     path:"/faq",

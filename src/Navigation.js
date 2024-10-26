@@ -43,12 +43,17 @@ function Navigation() {
                      className={`block py-2 px-3 md:p-0 text-white rounded ${currentPath === '/prizes' ? 'bg-green-600 md:bg-transparent md:text-green-500' : 'hover:bg-gray-700 md:hover:bg-transparent md:hover:text-blue-500'} font-mono`}>Prizes</a>
                 </li>
                 <li>
+                  <a href="/sponsors"
+                     className={`block py-2 px-3 md:p-0 text-white rounded ${currentPath === '/sponsors' ? 'bg-green-600 md:bg-transparent md:text-green-500' : 'hover:bg-gray-700 md:hover:bg-transparent md:hover:text-blue-500'} font-mono`}>Sponsors</a>
+                </li>
+                <li>
                   <a href="/team"
                      className={`block py-2 px-3 md:p-0 text-white rounded ${currentPath === '/team' ? 'bg-green-600 md:bg-transparent md:text-green-500' : 'hover:bg-gray-700 md:hover:bg-transparent md:hover:text-blue-500'} font-mono`}>Team</a>
                 </li>
                 <li>
                   <a href="/contact-us"
-                     className={`block py-2 px-3 md:p-0 text-white rounded ${currentPath === '/contact-us' ? 'bg-green-600 md:bg-transparent md:text-green-500' : 'hover:bg-gray-700 md:hover:bg-transparent md:hover:text-blue-500'} font-mono`}>Contact Us</a>
+                     className={`block py-2 px-3 md:p-0 text-white rounded ${currentPath === '/contact-us' ? 'bg-green-600 md:bg-transparent md:text-green-500' : 'hover:bg-gray-700 md:hover:bg-transparent md:hover:text-blue-500'} font-mono`}>Contact
+                    Us</a>
                 </li>
               </ul>
             </div>
