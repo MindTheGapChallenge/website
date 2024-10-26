@@ -6,6 +6,7 @@ import programming from "./programming.png";
 import myImage from "./output-onlinepngtools.png";
 import Prizes from "./Prizes";
 import ScrollAnimation from "../ScrollAnimation";
+import Sponsors from "./Sponsors";
 
 export default function Home () {
   return (
@@ -46,8 +47,7 @@ export default function Home () {
           </div>
           <div id="sponsors" className="p-8 bg-gray-800 mt-16 overflow-hidden">
             <ScrollAnimation>
-              <h1 className="mb-16 text-color text-center text-4xl font-extrabold text-color">Sponsors</h1>
-              <h2 className="text-center">Coming Soon!</h2>
+              <Sponsors/>
             </ScrollAnimation>
           </div>
         </div>
