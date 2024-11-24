@@ -1,9 +1,9 @@
 import Rect from "./Rect";
 import world from "./world.png";
-import people from "./people.png";
 import happy from "./happy.png"
 import programming from "./programming.png";
 import myImage from "./output-onlinepngtools.png";
+import tools from './tools.svg';
 import Prizes from "./Prizes";
 import ScrollAnimation from "../ScrollAnimation";
 import Sponsors from "./Sponsors";
@@ -20,7 +20,7 @@ export default function Home () {
         <ScrollAnimation>
         <div className="flex lg:flex-row flex-col justify-evenly md:space-x-8 space-x-4 w-full px-4 md:px-16 animate-appear my-16">
             <Rect text="Learn Programming" description={"Hackathons help high school students learn programming by offering a fun, hands-on way to build projects. You'll work with new languages, tools, and collaborate with others. The weeklong format gives you time to explore, problem-solve, and learn at your own pace, making it a great environment for growth."} img={programming}/>
-            <Rect text="Work with Others" description={"A hackathon is a team sport. You will be working in groups to make your project. Not only does this system help you accomplish more, but it also makes building more fun. In addition to that, you are building your teamwork and collaboration skills."} img={people}/>
+            <Rect text="Workshops" description={"We know that building a project on your own can be very daunting. This is why we offer workshops that help you take your projects to the next level"} img={tools} learnMore={"thingies"}/>
             <Rect text="Change the World" description={"Hackathons let high school students apply programming to real-world problems, making learning more meaningful. By tackling real challenges, you see firsthand how code can create impactful solutions. This practical experience boosts your problem-solving skills and shows how programming connects to real-life situations and careers."} img={world}/>
             <Rect text="Have Fun" description={"Hackathons are not just about learning—they’re also a lot of fun! You get to collaborate with friends, experiment with cool tech, and bring creative ideas to life. The relaxed, weeklong format allows you to enjoy the process, making coding feel more like a game than a task, while bonding with teammates and sharing in the excitement."} img={happy}/>
         </div>
