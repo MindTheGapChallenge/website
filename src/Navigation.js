@@ -38,6 +38,14 @@ function Navigation() {
                      className={`block py-2 px-3 md:p-0 text-white rounded ${currentPath === '/about' ? 'bg-green-600 md:bg-transparent md:text-green-500' : 'hover:bg-gray-700 md:hover:bg-transparent md:hover:text-blue-500'} font-mono`}>About</a>
                 </li>
                 <li>
+                  <a href="/prizes"
+                     className={`block py-2 px-3 md:p-0 text-white rounded ${currentPath === '/contact-us' ? 'bg-green-600 md:bg-transparent md:text-green-500' : 'hover:bg-gray-700 md:hover:bg-transparent md:hover:text-blue-500'} font-mono`}>Prizes</a>
+                </li>
+                <li>
+                  <a href="/sponsors"
+                     className={`block py-2 px-3 md:p-0 text-white rounded ${currentPath === '/contact-us' ? 'bg-green-600 md:bg-transparent md:text-green-500' : 'hover:bg-gray-700 md:hover:bg-transparent md:hover:text-blue-500'} font-mono`}>Sponsors</a>
+                </li>
+                <li>
                   <a href="/faq"
                      className={`block py-2 px-3 md:p-0 text-white rounded ${currentPath === '/faq' ? 'bg-green-600 md:bg-transparent md:text-green-500' : 'hover:bg-gray-700 md:hover:bg-transparent md:hover:text-blue-500'} font-mono`}>FAQ</a>
                 </li>

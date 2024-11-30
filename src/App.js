@@ -88,7 +88,21 @@ const router=createBrowserRouter([
       <Navigation />
       <Layout><ContactUs/></Layout>
     </>
-  }
+  },
+  {
+    path:"/sponsors",
+    element: <>
+      <Navigation />
+      <Layout><Sponsors/></Layout>
+    </>
+  },
+  {
+    path:"/prizes",
+    element: <>
+      <Navigation />
+      <Layout><Prizes/></Layout>
+    </>
+  },
 ])
 
 function App() {
