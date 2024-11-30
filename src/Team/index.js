@@ -2,6 +2,8 @@ import "./PersonCard";
 import PersonCard from "./PersonCard";
 import aarush from "./Aarush_Tulsyan.png"
 import krishiv from "./KrishivPiduri.jpg";
+import Judges from "../Judges/Judges";
+
 export default function Team () {
     return (
         <section className="bg-gray-900">
@@ -10,6 +12,7 @@ export default function Team () {
                 <PersonCard Name={"Krishiv Piduri"} Role={"Founder and CEO"} Image={krishiv}/>
                 <PersonCard Name={"Aarush Tulsyan"} Role={"Mentor"} Image={aarush}/>
             </div>
+            <Judges/>
         </section>
 );
 }
