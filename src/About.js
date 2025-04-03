@@ -1,27 +1,68 @@
-function About () {
+export default function About() {
     return (
-        <div id="About" className="mt-16">
-            <div className="flex md:flex-row flex-col mt-5 mb-12">
-            <iframe className="md:w-[20%] my-6" height="315" src="https://www.youtube.com/embed/Sm5xF-UYgdg?si=IjvuhFmfXFTzf6Or" title="YouTube video player" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerPolicy="strict-origin-when-cross-origin"
-                    allowFullScreen></iframe>
-                <div className="md:w-[80%]">
-                    <h1 className="text-center text-4xl font-extrabold color mb-6 text-color">About The MTG Challenge</h1>
-                    <p className="text-left  mx-16 leading-loose tracking-wide my-4 text-color">
-                        In the 21st century, humanity has made more progress than ever. Weather it comes to poverty, disease, quality of life, life expectancy, or any other indicator of global development, we are significantly better off than we were just a couple decades ago. Did you know that, according to Canary Media, over 85% of new electricity generation infrastructure utilizes renewable energy? That means the switch to renewables is already well underway.</p>
-
-                        <p className="text-left  mx-16 leading-loose tracking-wide my-4 text-color">There are
-                            many other examples of such surprising facts. The reason we find them surprising is that news sites and social media often produces content that focuses on negative or sensational stories. They often talk about war, crisis, and disaster, but fail to mention positive trends in society. This false perception has significant impact on society. For example, despite that statistic about climate change, there are still many people who believe climate change is inevitable. That's because they are simply unaware of what humans are doing to combat climate change. Such beliefs can be very dangerous. People who belive that climate change is inevitable, for example, are much less likely to donate to a charity that combats climate change or vote for a presidential candidate who makes climate change one of their higher priorities.</p>
-                </div>
+        <div className="min-h-screen bg-gray-900 text-color px-6 py-12 md:px-20">
+            <div className="max-w-4xl mx-auto text-center">
+                <h1 className="text-5xl font-mono font-bold text-color">About MindTheGap Challenge</h1>
+                <p className="mt-4 text-lg text-gray-400">
+                    Bridging the gap between innovation and opportunity.
+                </p>
             </div>
-            {/*<hr/>*/}
-            <div className="flex flex-row mt-5 mb-6">
-                <div className="w-full">
-                    <h1 className="text-center text-4xl font-extrabold  mb-6 text-color">Why Join?</h1>
-                    <p className="text-left  mx-16 leading-loose tracking-wide text-color">MindTheGap Challenge brings together High School students from around the world to fight such
-                        devastating ignorance. Participants will use code to build solutions that will raise awareness about topics like world poverty and climate change. This is a great opportunity for high school students who are passionate about coding and want to use their skills to build something novel that solves a real problem and has a real impact on the world. Even beyond that, this event is a great way to meet other like-minded high school students who are also passionate about coding. This is a great networking opportunity</p>
+
+            <div className="max-w-3xl mx-auto mt-10">
+                <section className="mb-10">
+                    <h2 className="text-3xl font-semibold text-color">Our Mission</h2>
+                    <p className="mt-2 text-gray-400">
+                        We exist to close the gap between talent and opportunity by creating an ecosystem where:
+                    </p>
+                    <ul className="list-disc list-inside mt-2 text-gray-400">
+                        <li><strong>Students</strong> gain hands-on experience and build real-world projects.</li>
+                        <li><strong>Industry leaders</strong> discover fresh talent and groundbreaking ideas.</li>
+                        <li><strong>Innovators</strong> turn their projects into scalable startups.</li>
+                    </ul>
+                </section>
+
+                <section className="mb-10">
+                    <h2 className="text-3xl font-semibold text-color">What Makes MTG Different?</h2>
+                    <ul className="list-disc list-inside mt-2 text-gray-400">
+                        <li><strong>Real-World Impact:</strong> Our challenges focus on practical problems that drive change.</li>
+                        <li><strong>Global Community:</strong> A diverse network of students, professionals, and investors.</li>
+                        <li><strong>Beyond the Hackathon:</strong> Winning teams get access to mentorship, funding, and startup incubators.</li>
+                    </ul>
+                </section>
+
+                <section className="mb-10">
+                    <h2 className="text-3xl font-semibold text-color">How It Works</h2>
+                    <ol className="list-decimal list-inside mt-2 text-gray-400">
+                        <li>Form a Team or join solo and choose from three tracks: AI, No-Code, or Game Design.</li>
+                        <li>Build & Innovate over one month with mentor support, workshops, and networking events.</li>
+                        <li>Pitch to Judges—a panel of investors, founders, and tech leaders.</li>
+                        <li>Win Prizes & Scale Your Idea! Top projects receive funding and industry connections.</li>
+                    </ol>
+                </section>
+
+                <section className="mb-10">
+                    <h2 className="text-3xl font-semibold text-color">Our Partners & Sponsors</h2>
+                    <p className="mt-2 text-gray-400">
+                        MindTheGap is backed by leading tech companies, investors, and universities that share our vision of fostering innovation.
+                    </p>
+                    <button className="mt-4 px-6 py-2 border-2 border-green-400 text-color rounded-lg hover:bg-green-400 hover:text-black transition">
+                        Become a Sponsor
+                    </button>
+                </section>
+            </div>
+
+            <div className="text-center mt-10">
+                <h2 className="text-2xl text-color font-semibold">Join the Movement</h2>
+                <p className="mt-2 text-gray-400">MindTheGap isn’t just a hackathon; it’s a launchpad for future tech leaders.</p>
+                <div className="mt-4 flex justify-center gap-4">
+                    <button className="px-6 py-2 border-2 border-green-400 text-color rounded-lg hover:bg-green-400 hover:text-black transition">
+                        Sign Up for MTG 2024
+                    </button>
+                    <button className="px-6 py-2 border-2 border-green-400 text-color rounded-lg hover:bg-green-400 hover:text-black transition">
+                        Contact Us
+                    </button>
                 </div>
             </div>
         </div>
     );
 }
-export default About;
