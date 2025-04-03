@@ -1,5 +1,4 @@
 import Rect from "./Rect";
-import world from "./world.png";
 import happy from "./happy.png"
 import programming from "./programming.png";
 import myImage from "./output-onlinepngtools.png";
@@ -24,17 +23,25 @@ export default function Home () {
         </div>
         <ScrollAnimation>
             <div
-                className="flex lg:flex-row flex-col justify-evenly md:space-x-8 space-x-4 w-full px-4 md:px-16 animate-appear my-16">
-            <Rect text="Learn Programming" description={"Hackathons help high school students learn programming by offering a fun, hands-on way to build projects. You'll work with new languages, tools, and collaborate with others. The weeklong format gives you time to explore, problem-solve, and learn at your own pace, making it a great environment for growth."} img={programming}/>
-            <Rect text="Workshops" description={"We know that building a project on your own can be very daunting. This is why we offer workshops that help you take your projects to the next level"} img={tools} learnMore={"resources"}/>
-            <Rect text="Change the World" description={"Hackathons let high school students apply programming to real-world problems, making learning more meaningful. By tackling real challenges, you see firsthand how code can create impactful solutions. This practical experience boosts your problem-solving skills and shows how programming connects to real-life situations and careers."} img={world}/>
-            <Rect text="Have Fun" description={"Hackathons are not just about learning—they’re also a lot of fun! You get to collaborate with friends, experiment with cool tech, and bring creative ideas to life. The relaxed, weeklong format allows you to enjoy the process, making coding feel more like a game than a task, while bonding with teammates and sharing in the excitement."} img={happy}/>
-        </div>
+                className="flex flex-col md:space-x-8 space-x-4 w-full px-4 md:px-16 animate-appear my-16">
+                <h1 className="text-white text-6xl font-bold text-center">Why MindTheGap?</h1>
+                <div className="flex lg:flex-row flex-col justify-evenly md:space-x-8 space-x-4 w-full px-4 md:px-16 animate-appear">
+                    <Rect text="Community Driven Impact"
+                          description={"MTG is more than just a hackathon. It is a community of sponsors, expert judges, and hackers ready to change the world"}
+                          img={programming}/>
+                    <Rect text="Innovation First"
+                          description={"We empower participants to build real-world solutions that push boundaries"}
+                          img={tools}/>
+                    <Rect text="Have Fun"
+                          description={"MTG isn't just about coding and making a dent in the world; we understand that having fun while doing all those things is important. "}
+                          img={happy}/>
+                </div>
+            </div>
         </ScrollAnimation>
         <div id="info" className="">
-          <div className="bg-gray-800 my-4 py-8" id="home-about">
+        <div className="bg-gray-800 my-4 py-8" id="home-about">
             <div className="md:w-[60%] w-[90%] mx-auto my-16">
-              <h4 className="text-center text-color text-4xl font-bold mb-4 font-mono">Welcome to MindTheGap Hacks</h4>
+              <h4 className="text-center text-color text-4xl font-bold mb-4 font-mono">Trusted by Industry Leaders</h4>
               <ScrollAnimation>
                 <p className="text-center px-3 text-color leading-8 font-mono">In the 21st century, humanity has made more progress than ever. Weather it comes to poverty, disease, quality of life, life expectancy, or any other indicator of global development, we are significantly better off than we were just a couple decades ago. Did you know that, according to Canary Media, over 85% of new electricity generation infrastructure utilizes renewable energy? That means the switch to renewables is already well underway.
 </p>
