@@ -3,7 +3,6 @@ import happy from "./happy.png"
 import programming from "./programming.png";
 import myImage from "./output-onlinepngtools.png";
 import tools from './tools.svg';
-import Prizes from "./Prizes";
 import ScrollAnimation from "../ScrollAnimation";
 import Sponsors from "./Sponsors";
 import GlitchLogo from "./GlitchLogo_Color.png";
@@ -72,11 +71,6 @@ export default function Home () {
                 </div>
             </div>
         </div>
-            <div id="prizes" className="my-16">
-                <ScrollAnimation>
-                    <Prizes/>
-                </ScrollAnimation>
-            </div>
             <div id="sponsors" className="p-8 odd:bg-gray-950 mt-16 overflow-hidden">
                 <ScrollAnimation>
                 <Sponsors/>
