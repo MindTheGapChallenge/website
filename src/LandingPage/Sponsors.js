@@ -15,9 +15,9 @@ export default function Sponsors() {
     return (
         <>
             <h1 className="mb-8 text-color text-center text-4xl font-extrabold text-color font-mono">Sponsors</h1>
-            <Sponsor img={GlitchLogo}/>
-            <Sponsor img={FlatLogicLogo}/>
-            <Sponsor img={WolframLogo}/>
+            <a href="https://glitch.com" target="_blank"><Sponsor img={GlitchLogo}/></a>
+            <a href="https://flatlogic.com" target="_blank"><Sponsor img={FlatLogicLogo}/></a>
+            <a href="https://wolfram.com" target="_blank"><Sponsor img={WolframLogo}/></a>
         </>
     );
 }

@@ -1,6 +1,4 @@
-@tailwind base;
-@tailwind components;
-@tailwind utilities;
+
 
 #interest-form {
     min-width: 100%;
@@ -40,7 +38,7 @@ button {
 }
 
 .text-color {
-  color: rgba(0, 255, 129, 1);
+  color: rgba(0, 255, 129, 1) !important;
 }
 
 .animate-fade {
@@ -130,3 +128,7 @@ h2 {
   justify-content: center;
   margin-top: 20px;
 }
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
